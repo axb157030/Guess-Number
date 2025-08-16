@@ -48,10 +48,10 @@ function GiveHint(
     setStatement("You are way less than the number");
     setIsCorrect(false);
   } else if (guess > randNum) {
-    setStatement("Less than the number");
+    setStatement("You are over the number");
     setIsCorrect(false);
   } else if (guess < randNum) {
-    setStatement("Over the number");
+    setStatement("You are less than the number");
     setIsCorrect(false);
   } else {
     setStatement("🎉 You guessed it!");
