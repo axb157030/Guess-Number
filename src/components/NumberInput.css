@@ -1,0 +1,14 @@
+/* src/components/NumberInput.css */
+.number-input {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  width: 200px;
+  transition: border-color 0.3s ease;
+}
+
+.number-input:focus {
+  border-color: #007bff;
+}
