@@ -51,7 +51,7 @@ function GiveHint(
     setStatement("Less than the number");
     setIsCorrect(false);
   } else if (guess < randNum) {
-    setStatement("Over the than the number");
+    setStatement("Over the number");
     setIsCorrect(false);
   } else {
     setStatement("🎉 You guessed it!");
