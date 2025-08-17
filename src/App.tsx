@@ -41,7 +41,7 @@ function GiveHint(
   setIsCorrect: React.Dispatch<React.SetStateAction<boolean>>
 ) {
     console.log("Random Number: " + randNum);
-  if (guess > randNum * 2 && guess < randNum + 10) {
+  if (guess > randNum * 2 && guess > randNum + 10) {
     setStatement("You are way past the number");
     setIsCorrect(false);
   } else if (guess < randNum / 2 && guess < randNum + 10) {
